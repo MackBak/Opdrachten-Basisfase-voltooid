@@ -19,14 +19,9 @@ public class MoneyExchange {
         double returnPond = Valutas.pond(calculatedEuros);
         double returnYen = Valutas.Yen(calculatedEuros);
 
-        int intUSD = (int) returnUSD;
-        int intPond = (int) returnPond;
-        int intYen = (int) returnYen;
-
-
-        System.out.println("U krijgt hier voor " + intUSD + " Dollar.");
-        System.out.println("U krijgt hier voor " + intPond + " Pond.");
-        System.out.println("U krijgt hier voor " + intYen + " Yen.");
+        System.out.println("U krijgt hier voor " + Math.round(returnUSD) + " Dollar.");
+        System.out.println("U krijgt hier voor " + Math.round(returnPond) + " Pond.");
+        System.out.println("U krijgt hier voor " + Math.round(returnYen) + " Yen.");
 
     }
 }
