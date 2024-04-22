@@ -2,7 +2,6 @@
 //Op basis van vervolg informatie van de gebruiker (Kenteken, parkeer lengte) komt er een uitdraai met de bedragen passend bij elk kenteken en een totaal bedrag.
 
 package Controller;
-
 import java.util.Scanner;
 
 public class Main {
